@@ -143,6 +143,7 @@ The [Quantities for Fortran](https://gitlab.com/everythingfunctional/quaff) is a
 Once you've written your test function, you'll need to include it into your test suite.
 I've [published a tool](https://gitlab.com/everythingfunctional/cart)
 that can be used to do it, but you can also do it manually.
+(Don't forget the `--garden` argument!).
 
 First, you'll need to write a function that defines a part of your test suite,
 either spec or BDD style, using the provided functions `describe` and `it`/`it_`
